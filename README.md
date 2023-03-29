@@ -1,0 +1,1 @@
+This is a CV website built by Adam Strotman utilizing a W3 template.

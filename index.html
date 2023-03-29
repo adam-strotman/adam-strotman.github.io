@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Adam Strotman</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="style/style.css">
+
+<style>
+<script defer src =”path/to/pyscript.js”></script>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="Headshot.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="resume.pdf" target="_blank" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <p class="w3-xxlarge" style="margin: 0 0 0;"><i class="glyphicon glyphicon-file"></i></p>
+    <p>RESUME</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a target="_blank" href="resume.pdf" class="w3-bar-item w3-button" style="width:25% !important">RESUME</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Adam Strotman</h1>
+    <p>Cyber Security Consultant</p>
+    <img src="CircleHeadshot.jpg" alt="boy" class="w3-image" width="500" height="500">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Who am I?</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Hello, my name is Adam Strotman. I have a Bachelors of Science degree from the University of Dayton with a Major in Computer Information Systems and a Minor in Cyber Security along with a Concentration in Cyber Defense
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey" style="text-align: center;">Work Experience</h3>
+    <h4 style="text-align: center;">Guidehouse - Cyber Security Consultant Intern</h4>
+    <p style="text-align: center;">
+I worked on the public health cyber team, auditing clients and assessing their security compliance with NIST and other industry standards. I conducted system testing, created work papers and noted any cyber security gaps. I provided security recommendations and a whitepaper outlining new controls based on NIST standards to clients. Along with two other interns we completed a mock client pitch to management, which included research and a PowerPoint deck related to healthcare MSP cyber-attacks and solutions to secure systems and respond to breaches.</p>
+<br/>
+<h4 style="text-align: center;">FOX Sports - Web Developer Intern</h4>
+<p style="text-align: center;">
+I worked with the foxsports.com team to improve the website through the use of Javascript, Vue, Nuxt, CSS, and HTML. This work resulted in a 130% increase in SEO YoY, as well as the fixing of a multitude of bugs that improved the look and performance of the site. Additionally, new features were added to the website to make it easier for users to access content. One specific ticket that was worked on was the implementation of breadcrumbs for all event pages, which improved the SEO of those pages and enhanced the user experience.</p>
+<br/>
+<h3 class="w3-padding-16 w3-text-light-grey" style="text-align: center;">Project Experience</h3>
+<div style="text-align: center;">
+<div class="dropdown">
+  <span><h4 style="text-align: center;">Messenger Application - JavaScript, HTML, CSS, MongoDB</h4></span>
+  <div class="dropdown-content" style="text-align: left;">
+    <p>Developed a functional messenger application with a team. It uses a three-layer architecture with a front-end, back-end, and data layer. The application allows new users to log in, and their credentials are saved into the database along with their chat history. It also allows users to join groups and private message other users or specific groups. Security measures, such as controls to prevent SQL injection attacks, have been incorporated into the app. The team also created the appropriate documentation for all use cases and sequence diagrams used in the app.</p>
+  </div>
+</div>
+<br/>
+<div class="dropdown">
+  <span><h4 style="text-align: center;">Stock Finder - Python</h4></span>
+  <div class="dropdown-content" style="width: 500px; text-align: left;">
+    <p>Used pandas_datareader, matplotlib.pyplot and datetime library to create a graph that shows the highs and lows of a stock within a specified time frame. The user would provide the stock symbol, the start and end dates and select the information to be displayed. The code would then retrieve the stock data from yahoo finance and plot the data onto a graph.</p>
+  </div>
+</div>
+<br/>
+<div class="dropdown">
+  <span><h4 style="text-align: center;">Random Password Generator - Python</h4></span>
+  <div class="dropdown-content" style="text-align: left;">
+    <p>Created a program that allows a user to input how long they would like the password to be, what sort of characters they would like to use, and how many randomly generated passwords they would like. The porgram then returns to the user the number of passwords they requested with the appropiate requirements.</p>
+  </div>
+</div>
+</div>
+    <h3 class="w3-padding-16 w3-text-light-grey" style="text-align: center;">Technical Skills</h3>
+    
+    <!-- Grid for pricing tables -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Programming Languages</li>
+          <li class="w3-padding-16">Python</li>
+          <li class="w3-padding-16">Java</li>
+          <li class="w3-padding-16">JavaScript</li>
+          <li class="w3-padding-16">HTML</li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Operating Systems/Programs</li>
+          <li class="w3-padding-16">Windows</li>
+          <li class="w3-padding-16">Linux</li>
+          <li class="w3-padding-16">Docker</li>
+          <li class="w3-padding-16">VirtualBox</li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+  </div>
+    <h3 class="w3-padding-13 w3-text-light-grey" style="text-align: center;">Soft Skills</h3>
+    <div class="w3-row-padding" style="margin:10 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-padding-16">Problem Solving</li>
+          <li class="w3-padding-16">Time Managment</li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-padding-16">Excellent Written and Oral Communication</li>
+          <li class="w3-padding-16">Team Work</li>
+        </ul>
+      </div>
+    </div>
+</div>
+    <!-- <h3 class="w3-padding-16 w3-text-light-grey" style="text-align: center;" >Certifications</h3> -->
+<div style="text-align:center;">
+  <footer>
+    <table style="margin-left: auto; margin-right: auto;">
+      <tr>
+        <th><a class="w3-padding-13 w3-text-light-grey" style="text-decoration: none; text-align: center;" href="resume.pdf" target="_blank"><h4>Resume|</h4></a>
+        </th>
+        <th>
+          <a class="w3-padding-13 w3-text-light-grey" style="text-decoration: none; text-align: center;" href="https://github.com/adam-strotman" target="_blank"><h4> Github|</h4></a>
+        </th>
+        <th>
+          <a class="w3-padding-13 w3-text-light-grey" style="text-decoration: none; text-align: center;" href="mailto:adammstrotman@gmail.com" id="contact"><h4> Email|</h4></a>
+        </th>
+        <th>
+          <a class="w3-padding-13 w3-text-light-grey" style="text-decoration: none; text-align: center;" href="https://www.linkedin.com/in/adam-strotman/" id="contact"><h4> Linkedin</h4></a>
+        </th>
+      </tr>
+    </table>
+  </footer>
+</div>
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
